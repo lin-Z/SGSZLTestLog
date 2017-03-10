@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SGSZLTestLog_Example' do
+  pod 'SGSZLTestLog', :path => '../'
+
+  target 'SGSZLTestLog_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

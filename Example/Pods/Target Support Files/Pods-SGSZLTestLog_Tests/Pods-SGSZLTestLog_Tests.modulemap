@@ -1,0 +1,6 @@
+framework module Pods_SGSZLTestLog_Tests {
+  umbrella header "Pods-SGSZLTestLog_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

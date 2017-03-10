@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SGSZLTestLog (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SGSZLTestLog (from `../`)
+
+EXTERNAL SOURCES:
+  SGSZLTestLog:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SGSZLTestLog: dc85bbb4d7ae2d89b8f09b854d65a99439b93d1b
+
+PODFILE CHECKSUM: 4707a29d57fd3f2f1d33322b7cad081c184c6a97
+
+COCOAPODS: 1.2.0
